@@ -1,12 +1,13 @@
 body {
 	background-color: rgba(0, 51, 0, 0.5);
 }
-h1	{
+.name	{
 	color: white;
 	text-align: center;
 	font-family: Georgia, Serif;
+	font-weight: 200;
 }
-p	{
+.occupation	{
 	color: black;
 	text-align: center;
 	font-family: Georgia, Serif;
