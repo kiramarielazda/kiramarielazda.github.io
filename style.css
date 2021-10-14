@@ -1,0 +1,193 @@
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+.content {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+}
+.titleDiv {
+	background-color:#83aec9;
+	margin:0;
+	padding:5px;
+}
+.name	{
+	color: black;
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-weight: 200;
+}
+.occupation	{
+	color: black;
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-style: italic;
+	font-weight: 200;
+}
+.navbar {
+	display:block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #8D8741;
+	width: 100%;
+}
+.active {
+	background-color: #659DBD;
+	color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, Serif;
+  font-style: bold;
+}
+.active {
+	background-color: #659DBD;
+	color: white;
+}
+li a:hover:not(.active) {
+  background-color: #7a7538;
+}
+
+a:link:not(.active) {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: Georgia, Serif;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: Georgia, Serif;
+}
+
+a.educationText:hover {
+  color:#659dbd;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.educationText{
+	color: #696430;
+}
+
+.education {
+	display: inline-block;
+	background-color: #dfdcb9;
+	text-align: left;
+	font-family: Georgia, Serif;
+	margin:0px;
+	color:#696430;
+	float:left;
+	width: 50%;
+	margin-top:10px;
+}
+#heading {
+	margin-left: 10px;
+}
+.educationText {
+	font-size: 20px;
+	margin:15px;
+	font-weight: 800;
+}
+.details {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #7a7438;
+}
+.dates {
+	font-size: 15px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #9d9648;
+	font-style:italic;
+}
+.PicsEducation {
+	display: inline-block;
+	margin: 0px;
+	margin-top: 10px;
+	float:left;
+	width: 50%;
+}
+#arizona {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+}
+#seeds {
+	margin-left: auto;
+	margin-right: auto;
+}
+.experience {
+	display: inline-block;
+	background-color: #e7cab1;
+	text-align: left;
+	font-family: Georgia, Serif;
+	color:#9c6230;
+	float: right;
+	width: 50%;
+	margin-top:20px;
+}
+#heading2 {
+	margin-left: 10px;
+}
+.employer {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #9c6230;
+}	
+.experiencetext {
+	font-size: 20px;
+	margin:8px;
+	margin-left: 15px;
+	font-weight: 800;
+}
+.subtext {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #b06f36;
+}
+.workdates {
+	font-size: 15px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #b06f36;
+	font-style:italic;
+}
+.PicsHobbies1 {
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+.hobbies {
+	display: inline-block;
+	background-color: #dfdcb9;
+	text-align: left;
+	font-family: Georgia, Serif;
+	color:#696430;
+	width:60%;
+	float: right;
+	margin-top: 10px;
+}
+.PicsHobbies2 {
+	display: inline-block;
+	width: 33%;
+	float: left;
+}
