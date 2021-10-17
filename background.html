@@ -1,0 +1,69 @@
+<!--Code by Kira-Marie Lazda for GEOM101 Personal Website-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--This section is my horizontal navigation bar for my two pages-->
+	<ul class="navbar">
+	  <li><a href="index.html" class='nav'>About Me</a></li>
+	  <li><a class = "active" href="background.html" class='nav'>My Background</a></li>
+	</ul>
+	<!--I created a container to put all of my content in so that I could force my content to sit on the middle 80% of my screen, similar to Instagram's browser layout-->
+	<div class='content'>
+		<!--I wanted my name and occupation to be front and center on both pages-->
+		<div class="titleDiv">
+			<h1 class="name">Kira-Marie Lazda</h1>
+			<h2 class="occupation">GIS Applications Specialist and Environmental Scientist</h2>
+		</div>
+		<!--Again, I used a 2 column structure from W3Schools (https://www.w3schools.com/howto/howto_css_two_columns.asp) 
+			to format my text and images into clean rows on my page to simulate a resume layout, except I did not alternate the order here-->
+		<div class="row">
+			<div class="txtcol2">
+				<!--I used cascading headings and paragraph elements to create visual hierarchy for all the text on this page, similar to a resume-->
+				<h2 class='headings'> Education </h2>
+				<!--As one of my options for section 3, I decided to link the programs I completed or am currently enrolled in so that people can see what I study-->
+				<a href="https://flemingcollege.ca/programs/geographic%2Dinformation%2Dsystems%2Dapplications%2Dspecialist#program%2Dhighlights" target="_blank" class='educationText'>GIS Applications Specialist Graduate Certificate </a>
+				<p class='details'> <b>Fleming College</b>    Lindsay ON </a>
+				<p class='dates'> September, 2021 - June, 2022 </p>
+				<p class='details'> Further developing my knowledge of GIS, with a specific interest in how GIS intersects the fields of wildlife conservation and environmental science.
+				The program provides training in database management, web design, remote sensing, cartography, programming in ArcGIS, and more! </p>
+				<a href="https://www.mcgill.ca/environment/programs/bieler%2Dschool%2Denvironment%2Dcourses/undergraduate%2Dprograms/bscandbsc%2Dag%2Denv%2Dsc/bio%2Ddiv%2Dcons" class='educationText'> B Sc. Agricultural & Environmental Sciences  </a>
+				<p class='details'> <b>McGill University</b>    Montreal QC </p>
+				<p class='details'> Concentration: Conservation & Biodiversity </p>
+				<p class='details'> Minor: GIS & Remote Sensing </p>
+				<p class='dates'> January, 2018 - December, 2020 </p>
+				<p class='details'> I was fortunate to have participated in field courses in Arizona and California, which inspired me to 
+				want to pursue a career in wildlife and habitat conservation.</p>
+			</div>
+			<!--Similar to my LinkedIn footer on my home page, I overlayed image captions on this page to help connect my pictures to my text-->
+			<div class="imgcol2">
+				<img src='Images/Arizona.jpg' alt="Sunset in the Desert" class='pics'>
+				<div class='bottomright'>Desert Ecology Field Course, Phoenix AZ</div>
+			</div>
+		</div>
+		<!--Separating my content into two rows allowed me to distinguish between sections and make my page more dynamic-->
+		<div class="row">
+			<div class="txtcol2" id='experiencebox'>
+				<!--This section follows the same general layout as the text content above in an attempt to create a clean resume look-->
+				<h2 class='headings'> Professional Experience </h2>
+				<h3 class='position'> Research Assistant </h3>
+				<p class='employer'> McGill University</p>
+				<p class='workdates'> May, 2020 - December 2020 </p>
+				<p class='subtext'> I assisted a PhD student with her research on the distribution of North American mistletoe species in relation to her main topic of host-parasite relationships. 
+				I conducted extensive literature reviews, used ArcMap and ArcPy to generate hundreds of maps, managed large spreadsheets of data and performed data analysis in Excel.</p>
+				<h3 class='position'> Research Assistant </h3>
+				<p class='employer'> Macdonald Campus of McGill University</p>
+				<p class='workdates'> May, 2019 - September 2019 </p>
+				<p class='subtext'> I assisted a PhD student with his research on the endangered Copper Redhorse fish and the effects of common pesticides in the Richelieu River of Quebec. 
+				I collected laboratory data of larvae growth and survival, participated in field work, performed data analysis and presented research findings at a conference.</p>
+			</div>
+			<div class="imgcol2">
+				<img src='Images/Research.jpg' alt="Sunset in the Desert" class='pics'>
+				<div class='bottomright'>Seed Predation Project Data Collection</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

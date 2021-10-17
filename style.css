@@ -1,0 +1,280 @@
+/***This First Section pertains to elements that are on both the "About Me" page and the "My Background" page, 
+including the navbar, header and content holder***/
+
+body {
+	background-color: #efeddc;
+	padding: 0;
+	margin: 0;
+}
+/* I wanted all of my content to take up the middle 80% of the screen,
+ since readers typically don't like to see a full screen of text
+ and I like the design of this (similar to instagram on browser layout)*/
+.content {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;	
+}
+/*I used the 'Natural and Earthy' Colour Palette from Visme as my inspiration for these webpages: https://visme.co/blog/website-color-schemes/*/
+.titleDiv {
+	background-color:#83aec9;
+	margin:0;
+	padding:5px;
+}
+/*The goal was to get this to look like my resume, so I used a classic font and my layout is structured like a resume*/
+.name	{
+	color: black;
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-weight: 200;
+}
+.occupation	{
+	color: black;
+	text-align: center;
+	font-family: Georgia, Serif;
+	font-style: italic;
+	font-weight: 200;
+}
+/*This is one of my 3 items for part 3: the horizontal navbar.
+I followed the overall structure from W3Schools: https://www.w3schools.com/css/css_navbar_horizontal.asp
+ and adjusted the colour and size to fit my theme*/
+.navbar {
+	display:block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #8D8741;
+	width: 100%;
+}
+/*The <li> inline elements allow me to put my tabs next to each other, rather than stacking them as you would in a vertical navbar*/
+li {
+  float: left;
+}
+/*This section adjusts the styling of the navbar tabs' text
+ I included the li here so that only the navbar links are being altered*/
+li a {
+  display: block;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-family: Georgia, Serif;
+  font-weight: 500;
+  color: black;
+}
+/*This active class is here to let the user know what page they are on
+by changing the colour of the tab on the navbar to blue and the text to white*/
+.active {
+	background-color: #659DBD;
+	color: white;
+}
+/*This allows the user to hover over the tab that is not currently in use,
+making it obvious by slightly changing the background colour*/
+li a:hover:not(.active) {
+  background-color: #7a7538;
+}
+
+/***This section moves into other links on the webpage
+On the "My Background" page, there are two links to Fleming and McGill's programs,
+in the class educationText, which I set the properties of here***/
+
+a.educationText{
+	color: #696430;
+	text-decoration:none;
+}
+/*I adjusted it so that when you hover over the link's text, the link changes to blue and gets underlined*/
+a.educationText:hover {
+  color:#659dbd;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*On the "About Me" page, at the very bottom there is a LinkedIn link, 
+in the class 'social'. I set its properties here*/
+a.social {
+	color:#f7df87;
+	background-color: transparent;
+	text-decoration: none;
+}
+/*I adjusted it so that when you hover over the link's text, the link changes to white and gets underlined*/
+a.social:hover {
+	color:white;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+/** This section mainly pertains to the "About Me" page**/
+
+/*On this page, I created two columns following W3Schools general structure: https://www.w3schools.com/howto/howto_css_two_columns.asp
+I wanted to alternate text and image columns for the two rows of content on this page.
+A similar structure is used on the "My Background" page, just a different order*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*This section sets my text column to take up 65% of the content space and adjusts the general properties*/
+.txtcol {
+	width: 65%;
+	float: left;
+	margin-top: 10px;
+	background-color:#dfdcb9;
+	font-family:Georgia, Serif;
+	text-align: left;
+}
+/*This slightly alters the text in the second row using its id*/
+#hobbies {
+	color:#274659;
+	margin-top: 10px;
+	background-color:#b8d2e0;
+}
+/*This sets my text column for the other page to take up 50% of the content space and adjusts the general properties*/
+.txtcol2 {
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+	background-color:#dfdcb9;
+	text-align: left;
+	font-family: Georgia, Serif;
+	color:#696430;
+}
+/* These two image columns are adjusted to take up 35% of the content space but are floated to opposite sides
+using their ids since I wanted a staggered look for this "About Me" page.*/
+.imgcol {
+	width: 35%;
+	margin-top:10px;
+}
+#right {
+	float:right;
+	text-align: right;
+}
+#left {
+	float:left;
+	text-align: left;
+}
+#hike {
+	border: 2px solid #8d8741;
+}
+#hobbiesHeading {
+	margin-left: 15px;
+	font-weight: 500;
+}
+.hobbiestext {
+	margin: 20px;
+	font-weight: 300;
+	line-height: 1.6;
+	font-size: 20px;
+}
+/*The images on the 'My Background' page are both in the right column so I only needed one class for the two of them here*/
+.imgcol2 {
+	width: 50%;
+	margin-top:15px;
+	float: right;
+	position: relative;
+	text-align:center;
+}
+	
+/*This section pertains to my image footer on my first page. 
+It takes up the full content window and centers itself and its contents, 
+namely my image from Jasper*/
+.footer {
+	margin-top: 20px;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	position:relative;
+}
+/*My LinkedIn hyperlink text overlays the image and is centered. 
+I refered to W3Schools for structure here: https://www.w3schools.com/howto/howto_css_image_text.asp*/
+.LinkedIn {
+	position:absolute;
+	top:50%;
+	left:50%;
+	font-size: 20px;
+	font-family: Georgia;
+	font-weight:600;
+	transform: translate(-50%, -50%);
+}
+/*I adjusted the image to fill the footer container and reduced its opacity to be able to show the text on it*/
+#Jasper {
+	width:100%;
+	height:auto;
+	opacity:0.7;
+}
+
+
+/***THIS SECTION MAINLY PERTAINS TO THE 'My Background' PAGE***/
+
+/*Most of the text styling was done in the previous section with the column classes, 
+I just wanted to add a margin to the actual headings for both text rows on this page */
+.headings {
+	margin-left: 10px;
+}
+/*This adjusts the different levels of text I have in the education text column, 
+slightly adjusts the colours and weights and adds indentation*/
+.educationText {
+	font-size: 20px;
+	margin:15px;
+	font-weight: 800;
+}
+.details {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #7a7438;
+}
+.dates {
+	font-size: 15px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #9d9648;
+	font-style:italic;
+}
+/*adds a border to the pictures*/
+.pics {
+	border: 2px solid #83aec9;
+	float:right;
+}
+/*overlays a caption of the images on the bottom right of both images*/
+.bottomright {
+	position: absolute;
+	bottom: 10px;
+	right:16px;
+	color: #efeddc;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: 200px;
+}
+/*change the colour of the experience section of this page so that there is contrast and distinction
+between the 'education' and 'professional experience'*/
+#experiencebox {
+	background-color:#e7cab1;
+	color: #9c6230;
+}
+/*adjust the font formatting for the various text sections, adding indentation and colour changes where appropriate to improve visual hierarchy*/
+.position {
+	font-size: 20px;
+	margin:8px;
+	margin-left: 15px;
+	font-weight: 800;
+	color:#9c6230;
+}
+.employer {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #9c6230;
+}
+.workdates {
+	font-size: 15px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #b06f36;
+	font-style:italic;
+}
+.subtext {
+	font-size: 18px;
+	margin: 8px;
+	margin-left: 18px;
+	color: #b06f36;
+}
+

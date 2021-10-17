@@ -1,0 +1,64 @@
+<!--Code by Kira-Marie Lazda for GEOM101 Personal Website-->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--This section is my horizontal navigation bar for my two pages-->
+	<ul class="navbar">
+	  <li><a class="active" href="index.html">About Me</a></li>
+	  <li><a href="background.html">My Background</a></li>
+	</ul>
+	<!--I created a container to put all of my content in so that I could force my content to sit on the middle 80% of my screen, similar to Instagram's browser layout-->
+	<div class='content'>
+		<!--I wanted my name and occupation to be front and center on both pages-->
+		<div class="titleDiv">
+			<h1 class="name">Kira-Marie Lazda</h1>
+			<h2 class="occupation">GIS Applications Specialist and Environmental Scientist</h2>
+		</div>
+		<!--I used a 2 column structure from W3Schools (https://www.w3schools.com/howto/howto_css_two_columns.asp) 
+			to format my text and images into clean rows on my page to simulate a resume layout-->
+		<div class="row">
+			<!--Since I wanted to alternate content position in the columns, I used left and right ids to help float the images to their correct position-->
+			<div class="imgcol" id='left'>
+				<img src='Images/LakeLouise.jpg' alt="Hiking in Lake Louise" id='hike'>
+			</div>
+			<div class="txtcol">
+				<!--To help the reader absorb my content, I broke my large text up into multiple paragraphs and two sections-->
+				<h2 id='hobbiesHeading'>Hello!</h2>
+				<h3 class='hobbiestext'> I am a young environmentalist, keen to make positive change for the Earth through my career and daily choices.
+										Having grown up spending summers camping, hiking and backpacking all over Canada and the United States, it was only natural 
+										to end up in the field of environmental science. </h3>
+				<h3 class='hobbiestext'>I was further drawn to conservation and habitat management due to my love and fascination
+										of animals, however, my education has further peaked my interest in ecosystem-level relationships between animals, plants and the elements. 
+										I decided to pursue a graduate program in GIS to be able to take my skillset to the next level and ultimately become a scientist with a 
+										broad scope of interests and abilities. Upon graduation, I am aiming to join municipal or NGO conservation efforts in Western Canada! </h3>
+			</div>
+		</div>
+		<!--My second row of content swaps the order of picture and text, helping create a more dynamic feel to my page-->
+		<div class='row'>
+			<div class="txtcol" id='hobbies'>
+				<h3 class='hobbiestext'> <b>Travel</b> has always been an important part of my life - I am always eager to hike a new trail and explore different areas of the world! 
+											I have volunteered in Guatemala and Thailand, both of which are some of my favorite experiences. Closer to home, I love to spend weekends
+											camping with family and friends, hiking to summits or wandering through marshland - all ecosystems intrigue me.</h3>
+				<h3 class='hobbiestext'> My time at McGill gave me the opportunity to go on a desert ecology field course in Arizona and California, where I spent a few weeks camping
+											with fellow students and professors. We spent our days observing the natural world, learning from our surroundings and conducting experiments.
+											That trip further drove my desire to pursue a career where I could be in nature. I was also organized to participate in a tropical ecology field course
+											in Barbados in May of 2020 and a research position in the Rockies in summer of 2020, but we all know what went wrong there!</h3>
+				<h3 class='hobbiestext'> Needless to say, I am excited to travel again soon and hopefully I will be able to integrate these passions of mine into my career someday. </h3>
+			</div>
+			<div class="imgcol" id='right'>
+				<img src='Images/Cactus.jpg' alt="Smiling Next to Cactus" class='pics'>
+			</div>
+		</div>
+		<!--My home page finishes with a footer image I took in Jasper and I used CSS to overlay my LinkedIn hyperlink on the image-->
+		<div class="footer">
+			<img src='Images/Jasper.jpg' alt="Pyramid Lake, Jasper" id='Jasper'>
+			<div class="LinkedIn">
+				<a href="https://ca.linkedin.com/in/kira%2Dmarie%2Dlazda" class='social'> Follow me on LinkedIn! </a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
