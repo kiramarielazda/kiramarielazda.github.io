@@ -149,6 +149,7 @@ using their ids since I wanted a staggered look for this "About Me" page.*/
 }
 #hike {
 	border: 2px solid #8d8741;
+	float:left;
 }
 #hobbiesHeading {
 	margin-left: 15px;
