@@ -151,6 +151,7 @@ using their ids since I wanted a staggered look for this "About Me" page.*/
 	border: 2px solid #8d8741;
 	float:left;
 }
+/*This section adjusts the fonts of my text on my About Me page, past the general font characteristics set for the entire body*/
 #hobbiesHeading {
 	margin-left: 15px;
 	font-weight: 500;
