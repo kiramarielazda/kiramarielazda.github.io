@@ -1,11 +1,12 @@
 # Group 9 Workload Distribution Plan
 ## Template
 We have chosen to pull inspiration from the Caslys Consulting webpage for our website's template. It can be accessed here: https://www.caslys.ca/
+
 The overall style of this website is as follows: 
-- have a navigation bar present on every page, 
+- a navigation bar present on every page, 
 - a header banner indicating which page you're on with a relevant image behind it, 
 - a main content block where the majority of text will go,
-- and a static footer that is consistent across pages.
+- a static footer that is consistent across pages.
 ## Website Purpose
 Our website's goal is to pull from each of our expertise to show customers how GIS can be applied to a wide range of fields. 
 We will have ~3 general information pages about what our consulting group is, who we are and what services we offer.
