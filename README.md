@@ -20,17 +20,25 @@ Create a banner that indicates which page the customer is on, with relevant titl
 Create the HTML for the primary content block that will hold the text for the active page and any related content (images, links, maps, etc) | Kira | November 20, 2021
 Create the CSS for the primary content block mentioned above | Stephanie | November 22, 2021
 Create a static footer that will be consistent across all pages and includes our company's name, location and one contact | Kathleen | November 22, 2021
-
+Merge all edits (HTML & CSS) and ensure final template is functional | All | November 24, 2021
+Submit template design to D2L | Kira | November 25, 2021
 ### Website Overview
 This is a summary of what we hope our website will contain and who is responsible for which page for the final website. 
 Due dates will be added once the template design is complete.
 #### Pages:
-1 - Home (All - further breakdown will be planned at a later date once group members' strengths have been assessed.
+1 - Home (All - further breakdown will be planned at a later date once group members' strengths have been assessed.)
+
 2 - About Us (Kathleen & Kira)
+
 3 - Services (Becca + Stephanie)
+
 3 - Archaeology (Carol)
+
 4 - Forestry (Stephanie)
+
 5 - Geography (Becca) 
+
 6 - Urban Planning (Kathleen)
+
 7 - Wildlife & Habitat Management (Kira)
 
