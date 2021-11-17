@@ -1,5 +1,6 @@
 # Group 9 Workload Distribution Plan
 This is a plan for GEOM 101 A3.
+
 Group 9 members: Kira-Marie Lazda, Stephanie Scane, Carol Buckingham, Becca Carmichael & Kathleen Soodhoo
 ## Template
 We have chosen to pull inspiration from the Caslys Consulting webpage for our website's template. It can be accessed here: https://www.caslys.ca/
