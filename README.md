@@ -1,4 +1,6 @@
 # Group 9 Workload Distribution Plan
+This is a plan for GEOM 101 A3.
+Group 9 members: Kira-Marie Lazda, Stephanie Scane, Carol Buckingham, Becca Carmichael & Kathleen Soodhoo
 ## Template
 We have chosen to pull inspiration from the Caslys Consulting webpage for our website's template. It can be accessed here: https://www.caslys.ca/
 
@@ -15,6 +17,7 @@ It will also have 5 specifc pages that go into detail about how GIS can be appli
 ### Template
 *Goal* | *Assigned to* | *Due by*
 --- | --- | ---
+Design colour palette to be used across the webpages | Carol | November 22, 2021
 Create navbar that contains tabs for each of the 8 pages and distinguishes active tab from inactive tab | Carol | November 22, 2021
 Create a banner that indicates which page the customer is on, with relevant title, subtitle and background image | Becca | November 22, 2021
 Create the HTML for the primary content block that will hold the text for the active page and any related content (images, links, maps, etc) | Kira | November 20, 2021
@@ -32,13 +35,13 @@ Due dates will be added once the template design is complete.
 
 3 - Services (Becca + Stephanie)
 
-3 - Archaeology (Carol)
+4 - Archaeology (Carol)
 
-4 - Forestry (Stephanie)
+5 - Forestry (Stephanie)
 
-5 - Geography (Becca) 
+6 - Geography (Becca) 
 
-6 - Urban Planning (Kathleen)
+7 - Urban Planning (Kathleen)
 
-7 - Wildlife & Habitat Management (Kira)
+8 - Wildlife & Habitat Management (Kira)
 
