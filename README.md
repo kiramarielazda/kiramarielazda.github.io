@@ -1,3 +1,4 @@
+#**Shawn I realized I had this README in the wrong repository! It is now in the A3 group repository: https://github.com/kiramarielazda/a3web Sorry about that!!
 # Group 9 Workload Distribution Plan
 This is a plan for GEOM 101 A3.
 
